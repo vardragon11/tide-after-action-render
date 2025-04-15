@@ -16,8 +16,8 @@ An AI-powered application that transforms text-based wargame scenarios into imme
 - Compiles the final animation into a downloadable film clip
 
 ## Licenses:
-#### Step 4
-![Step 4](diagrams/licenses.png)
+#### 
+![Step 4](Documents/setup-after-action-render.pptx)
 
 ### App Functionality
 
@@ -201,14 +201,13 @@ This project was developed and tested using the following environment:
 
 **Notes:**
 
-* This project utilizes a GPU for image generation. While you might be able to run it on a CPU, it would be significantly slower.
+* This project utilizes a GPU for image generation. While you can run it on a CPU, it would be significantly slower.
 * Colab offers a convenient environment for running this project, providing the necessary hardware and software. However, you can also replicate the environment locally if desired.
-* The `requirements.txt` file can be generated using `pip freeze > requirements.txt`. This ensures that you have the same library versions used during development.
+* The `requirements.txt` file can be generated using `pip freeze > requirements.txt`. This ensures that you have the identical library versions used during development.
 
 📜 License
 MIT License © 2025
 Developed with ❤️ using Streamlit, Manim, and generative AI tools.
-
 
 ## 📘 How-To Guide (Step-by-Step Visuals)
 
@@ -216,32 +215,8 @@ Below are example screenshots showing how to use the tool:
 
 ### 🖼️ Step-by-Step Instructions
 
-#### Step 1
-![Step 1](how-to-guide/1.png)
+Here is a link to the step-by-step guide.
 
-#### Step 2
-![Step 2](how-to-guide/2.png)
+[Download the PowerPoint presentation](./Documentation/setup-after-action-render.pptx)
 
-#### Step 3
-![Step 3](how-to-guide/3.png)
-
-#### Step 4
-![Step 4](how-to-guide/4.png)
-
-#### Step 5
-![Step 5](how-to-guide/5.png)
-
-#### Step 6
-![Step 6](how-to-guide/6.png)
-
-#### Step 7
-![Step 7](how-to-guide/7.png)
-
-#### Step 8
-![Step 8](how-to-guide/8.png)
-
-#### Step 9
-![Step 9](how-to-guide/9.png)
-
-#### Step 10
-![Step 10](how-to-guide/10.png)
+[Download the PowerPoint presentation](./Documentation/setup-after-action-render.pptx)
