@@ -216,7 +216,4 @@ Below are example screenshots showing how to use the tool:
 ### 🖼️ Step-by-Step Instructions
 
 Here is a link to the step-by-step guide.
-
-[Download the PowerPoint presentation](./Documentation/setup-after-action-render.pptx)
-
 [Download the PowerPoint presentation](./Documentation/setup-after-action-render.pptx)
