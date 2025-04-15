@@ -1,0 +1,24 @@
+Other Projects:
+2. Back to the future
+Image generation - has projects storage for each project . You can access local storage to retrive images of interests.
+
+You can select to images, add and adjust prompt for each  video movement.
+AI Starling Framework.
+
+All the model are local on the serves. 
+
+FLUX model they used
+
+1. GGIT Poland
+Streamline with one prompt creates scenes each scene grabs multiple images generation. Then you have a UI for each scene to adjust the camera and movement the tool based on a single prompt . Camera and shot type selection. 
+TOKEN RS, GPU 45 GB VRAM
+
+
+3. UKR SPIKE APP
+
+WAN 2.1 model
+1st prompt you provide requirements for clip like how many clips and duration of the video. Then a new prompt is outputed on how you should prompt model to get all the clips for the scenario.  Then you feed that in to create 30 clips then  you merge them to create the video you want. 
+
+
+Frostbite Poland
+Map to voice could show the history over that last 72hr in mil 2525 . The AI assistant or bot you can interact with to show roads as well. The AI asstist is chat gpt and it.

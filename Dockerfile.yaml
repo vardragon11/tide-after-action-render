@@ -1,0 +1,42 @@
+# Use Python base image
+FROM python:3.10-slim
+
+# Environment settings
+ENV PYTHONDONTWRITEBYTECODE 1
+ENV PYTHONUNBUFFERED 1
+
+# Create app directory
+WORKDIR /app
+
+# Install system dependencies
+RUN apt-get update && apt-get install -y \
+    ffmpeg \
+    libgl1-mesa-glx \
+    git \
+    espeak \
+    curl \
+    libcairo2-dev \
+    ffmpeg \
+    texlive texlive-latex-extra texlive-fonts-recommended texlive-luatex texlive-xetex \
+    fonts-freefont-ttf \
+    && rm -rf /var/lib/apt/lists/*
+
+# Install Python dependencies (including spaCy and Manim extras)
+RUN pip install --upgrade pip
+RUN pip install spacy && python -m spacy download en_core_web_sm
+
+# Copy and install Python requirements
+COPY requirements.txt .
+RUN pip install -r requirements.txt
+
+# Copy app files
+COPY . .
+
+# Create needed directories
+RUN mkdir -p /app/catalog_images /app/content/music
+
+# Expose Streamlit port
+EXPOSE 8501
+
+# Default command
+CMD ["streamlit", "run", "streamlit_app.py", "--server.port=8501", "--server.enableCORS=false"]
